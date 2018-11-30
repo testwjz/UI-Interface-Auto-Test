@@ -37,7 +37,6 @@ def pytest_runtest_makereport(item, call):
             report.sections.append(('pytest-selenium-error-message', '\n'.join(summary)))
         report.extra = extra
 
-
 def _gather_screenshot(driver, summary, extra, pytest_html):
     try:
         screenshot = driver.get_screenshot_as_base64()
