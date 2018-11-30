@@ -1,38 +1,53 @@
-#usr/bin/env python
-#coding:utf-8
-import os
-import uuid
+# usr/bin/env python
+# coding:utf-8
+import time
 import pytest
 from selenium import webdriver
 
-path = os.path.split(os.path.realpath(__file__))[0]+'\\test\\'
-screenshot_name = path + str(uuid.uuid4()) + ".png"
-driver=None
+from readConfig import ReadConfig
 
-#UI测试失败用例截图
-@pytest.mark.hookwrapper
-def pytest_runtest_makereport(item,call):
-    pytest_html = item.config.pluginmanager.getplugin('html')
-    outcome = yield
-    report = outcome.get_result()
-    extra = getattr(report, 'extra', [])
-    if report.when == 'call':
-        xfail = hasattr(report, 'wasxfail')
-        if not os.path.exists(path):
-            os.mkdir(path)
-        #增加额外日志文件到报告中
-        #extra.append(pytest_html.extras.url(path, name='Driver log'))
-        if (report.skipped and xfail) or (report.failed and not xfail):
-            driver.get_screenshot_as_file(screenshot_name)
-            extra.append(pytest_html.extras.image(screenshot_name))
-        report.extra = extra
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope='module')
 def browser(request):
-    global driver
-    if driver==None:
-        driver = webdriver.Chrome()
+    driver = webdriver.Chrome()
+    driver.implicitly_wait(ReadConfig().get_http('timeout'))
+    driver.maximize_window()
+
     def _close():
         driver.close()
+
     request.addfinalizer(_close)
     return driver
+
+@pytest.mark.hookwrapper
+def pytest_runtest_makereport(item, call):
+    pytest_html = item.config.pluginmanager.getplugin('html')
+    outcome = yield
+    summary = []
+    report = outcome.get_result()
+    extra = getattr(report, 'extra', [])
+    driver = item.funcargs['browser']
+    if report.when == 'call':
+        xfail = hasattr(report, 'wasxfail')
+        if driver is not None:
+            if (report.skipped and xfail) or (report.failed and not xfail):
+                time.sleep(1)
+                _gather_screenshot(driver, summary, extra, pytest_html)
+        if summary:
+            report.sections.append(('pytest-selenium-error-message', '\n'.join(summary)))
+        report.extra = extra
+
+
+def _gather_screenshot(driver, summary, extra, pytest_html):
+    try:
+        screenshot = driver.get_screenshot_as_base64()
+    except Exception as e:
+        summary.append('WARNING: Failed to gather screenshot: {0}'.format(e))
+        return
+    if pytest_html is not None:
+        extra.append(pytest_html.extras.image(screenshot, 'Screenshot'))
+
+@pytest.mark.optionalhook
+def pytest_html_results_table_html(report, data):
+    if report.passed:
+        del data[:]
