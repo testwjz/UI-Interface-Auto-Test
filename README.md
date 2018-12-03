@@ -1,28 +1,28 @@
 # UI TEST PYTEST+SELENIUM
 
-* common ¹«¹²·½·¨
-> CustomDriverÀà£¬×Ô¶¨Òå·â×°selenium·½·¨
+* common å…¬å…±æ–¹æ³•
+> CustomDriverç±»ï¼Œè‡ªå®šä¹‰å°è£…seleniumæ–¹æ³•
 
 * config
-> ´æ·ÅÒ»Ğ©ÅäÖÃÎÄ¼ş
+> å­˜æ”¾ä¸€äº›é…ç½®æ–‡ä»¶
 
 * pageLocator
-> Ê¹ÓÃpage_objects°ü¶Ô½çÃæÔªËØ½øĞĞ·â×°<br>
-1¡¢°²×°:pip install page_objects<br>
-2¡¢Ö÷Òª°üÀ¨PageObject¡¢PageElement¡¢MultiPageElement<br>
-3¡¢²Î¿¼µØÖ·£ºhttps://page-objects.readthedocs.io/en/latest/tutorial.html
+> ä½¿ç”¨page_objectsåŒ…å¯¹ç•Œé¢å…ƒç´ è¿›è¡Œå°è£…<br>
+1ã€å®‰è£…:pip install page_objects<br>
+2ã€ä¸»è¦åŒ…æ‹¬PageObjectã€PageElementã€MultiPageElement<br>
+3ã€å‚è€ƒåœ°å€ï¼šhttps://page-objects.readthedocs.io/en/latest/tutorial.html
 
 * report
-> Ö´ĞĞ½áÊøºó×Ô¶¯Éú³É±¨¸æ£¬Ê¹ÓÃpytest-html <br>
-> ×Ô¶¯¶ÔÊ§°ÜµÄÓÃÀı½øĞĞ½çÃæ½ØÍ¼<br>
-1¡¢Ê¹ÓÃpytest-selenium¡¢pytest-html
-2¡¢°²×°£ºpip install pytest-html¡¢pip install pytest-selenium<br>
-3¡¢²Î¿¼µØÖ·£ºhttps://pypi.org/project/pytest-html/¡¢https://pytest-selenium.readthedocs.io/en/latest/
+> æ‰§è¡Œç»“æŸåè‡ªåŠ¨ç”ŸæˆæŠ¥å‘Šï¼Œä½¿ç”¨pytest-html <br>
+> è‡ªåŠ¨å¯¹å¤±è´¥çš„ç”¨ä¾‹è¿›è¡Œç•Œé¢æˆªå›¾<br>
+1ã€ä½¿ç”¨pytest-seleniumã€pytest-html
+2ã€å®‰è£…ï¼špip install pytest-htmlã€pip install pytest-selenium<br>
+3ã€å‚è€ƒåœ°å€ï¼šhttps://pypi.org/project/pytest-html/;https://pytest-selenium.readthedocs.io/en/latest/
 
 * testCase    
-> ²âÊÔÓÃÀı´æ·ÅµØ·½
+> æµ‹è¯•ç”¨ä¾‹å­˜æ”¾åœ°æ–¹
 
-* ÆäËûÎÄ¼ş
-> conftest.py ×Ô¶¨ÒåÈ«¾Öfixture <br>
-> pytest.ini pytestÖ´ĞĞÇ°³õÊ¼»¯ÎÄ¼ş <br>
-> readConfig.py Îª¶ÁÈ¡×Ô¶¨ÒåÅäÖÃÎÄ¼ş¶ø·â×°µÄÀà
+* å…¶ä»–æ–‡ä»¶
+> conftest.py è‡ªå®šä¹‰å…¨å±€fixture <br>
+> pytest.ini pytestæ‰§è¡Œå‰åˆå§‹åŒ–æ–‡ä»¶ <br>
+> readConfig.py ä¸ºè¯»å–è‡ªå®šä¹‰é…ç½®æ–‡ä»¶è€Œå°è£…çš„ç±»
