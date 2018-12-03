@@ -17,7 +17,8 @@
 > 自动对失败的用例进行界面截图<br>
 1、使用pytest-selenium、pytest-html
 2、安装：pip install pytest-html、pip install pytest-selenium<br>
-3、参考地址：https://pypi.org/project/pytest-html/;https://pytest-selenium.readthedocs.io/en/latest/
+3、参考地址1：https://pypi.org/project/pytest-html
+4、参考地址2：https://pytest-selenium.readthedocs.io/en/latest
 
 * testCase    
 > 测试用例存放地方
