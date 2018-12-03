@@ -4,6 +4,12 @@
     <list default="true" id="92675712-a085-4029-8ac7-c06f2260a818" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/CustomDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/CustomDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/assets/11a3467e24ff2de2c6ed4fcc7dbd641e.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/assets/11a3467e24ff2de2c6ed4fcc7dbd641e.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/assets/51208ba0816202945f9d8a6c487d1c2d.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/assets/51208ba0816202945f9d8a6c487d1c2d.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/test_joinUS.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/test_joinUS.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,95 +20,69 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/test$joinUs.coverage" NAME="joinUs Coverage Results" MODIFIED="1543820856557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pageLocator" />
     <SUITE FILE_PATH="coverage/test$pytest_for_test_HomePage_test_login.coverage" NAME="pytest for test_HomePage.test_login Coverage Results" MODIFIED="1543822439493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
-    <SUITE FILE_PATH="coverage/test$pytest_for_test_joinUS_test_login.coverage" NAME="pytest for test_joinUS.test_login Coverage Results" MODIFIED="1543823268099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/test$pytest_for_test_joinUS_test_login.coverage" NAME="pytest for test_joinUS.test_login Coverage Results" MODIFIED="1543833110757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-689785702">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ini" value="4" />
+          <entry key="ini" value="7" />
           <entry key="md" value="3" />
-          <entry key="py" value="26" />
+          <entry key="py" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ini" value="4" />
+          <entry key="Ini" value="7" />
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="ini" value="27" />
+          <entry key="ini" value="52" />
           <entry key="md" value="136" />
-          <entry key="py" value="660" />
+          <entry key="py" value="793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ini" value="27" />
+          <entry key="Ini" value="52" />
           <entry key="Markdown" value="136" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="660" />
+          <entry key="Python" value="793" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="138">
-                <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pageLocator/joinUs.py">
+        <entry file="file://$PROJECT_DIR$/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="207">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/page_objects/__init__.py">
+        <entry file="file://$PROJECT_DIR$/testCase/test_joinUS.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="108" column="22" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="22" />
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
-                <element signature="e#190#518#0" />
-                <element signature="e#551#1215#0" />
-                <element signature="e#551#861#1" />
-                <element signature="e#920#1022#0" />
-                <element signature="e#1056#1215#0" />
-                <element signature="e#1056#1141#1" />
-                <element signature="e#1249#3598#0" />
-                <element signature="e#1249#2429#1" />
-                <element signature="e#2487#2777#0" />
-                <element signature="e#2816#2938#0" />
-                <element signature="e#3002#3255#0" />
-                <element signature="e#3305#3598#0" />
-                <element signature="e#3642#4510#0" />
-                <element signature="e#3642#3986#1" />
-                <element signature="e#4024#4145#0" />
-                <element signature="e#4195#4510#0" />
+                <element signature="e#15#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,14 +96,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="C:/Python27/Lib/site-packages/page_objects/__init__.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/pageLocator/joinUs.py" />
         <option value="$PROJECT_DIR$/testCase/test_HomePage.py" />
-        <option value="$PROJECT_DIR$/testCase/test_joinUS.py" />
         <option value="$PROJECT_DIR$/common/seleniumMethod.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/common/CustomDriver.py" />
+        <option value="$PROJECT_DIR$/testCase/test_joinUS.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
       </list>
     </option>
   </component>
@@ -144,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,22 +135,43 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="pageLocator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pytest_selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="pytest_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,48 +275,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 11h 05m 46s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 16h 54m 15s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 11h 06m 44s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 16h 56m 25s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 14h 57m 05s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 18h 21m 58s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 15h 03m 18s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 18h 22m 37s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 15h 08m 33s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 18h 26m 48s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 15h 11m 42s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 18h 27m 52s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 15h 11m 58s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 18h 29m 01s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 15h 12m 59s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 18h 29m 59s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_HomePage_test_login - 2018.12.03 at 15h 34m 11s.xml">
-      <configuration name="pytest for test_HomePage.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 18h 31m 32s.xml">
+      <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 15h 47m 57s.xml">
+    <history-entry file="pytest_for_test_joinUS_test_login - 2018.12.03 at 18h 31m 59s.xml">
       <configuration name="pytest for test_joinUS.test_login" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="117" width="1365" height="826" extended-state="0" />
-    <editor active="true" />
+    <frame x="384" y="61" width="1365" height="826" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25363985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25747126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38872832" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43063584" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39884394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -346,49 +346,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/CustomDriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-            <marker date="1543823464226" expanded="true" signature="198:217" ph="..." />
-            <marker date="1543823464226" expanded="true" signature="211:213" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="138">
+            <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/test_joinUS.py">
+    <entry file="file://$PROJECT_DIR$/pageLocator/joinUs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="23">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -417,20 +388,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pageLocator/joinUs.py">
+    <entry file="file://$PROJECT_DIR$/readConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="138">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="138">
-            <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://C:/Python27/Lib/site-packages/pkg_resources/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8687">
+          <caret line="2329" selection-start-line="2329" selection-end-line="2329" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/CustomDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pytest_selenium/safety.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pytest_selenium/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/chrome/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3846">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="78" />
+          <folding>
+            <element signature="e#788#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pytest_selenium/drivers/chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pytest_selenium/hooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pytest_selenium/pytest_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-626">
+          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#662#1037#0" />
+            <element signature="e#1063#1709#0" />
+            <element signature="e#1063#1145#1" />
+            <element signature="e#1172#1696#0" />
+            <element signature="e#1197#1654#0" />
+            <element signature="e#1445#1579#0" />
+            <element signature="e#1614#1654#0" />
+            <element signature="e#1752#1911#0" />
+            <element signature="e#1991#2422#0" />
+            <element signature="e#2222#2346#0" />
+            <element signature="e#2558#3392#0" />
+            <element signature="e#2713#3299#0" />
+            <element signature="e#2847#3033#0" />
+            <element signature="e#3081#3162#0" />
+            <element signature="e#3207#3299#0" />
+            <element signature="e#4543#5198#0" />
+            <element signature="e#5265#5430#0" />
+            <element signature="e#5477#5550#0" />
+            <element signature="e#5599#5645#0" />
+            <element signature="e#5724#6374#0" />
+            <element signature="e#5944#6304#0" />
+            <element signature="e#6425#6437#0" />
+            <element signature="e#6505#7261#0" />
+            <element signature="e#6687#6850#0" />
+            <element signature="e#6897#7221#0" />
+            <element signature="e#7091#7221#0" />
+            <element signature="e#7312#7418#0" />
+            <element signature="e#7493#9165#0" />
+            <element signature="e#7925#8830#0" />
+            <element signature="e#8034#8140#0" />
+            <element signature="e#8184#8830#0" />
+            <element signature="e#8866#9052#0" />
+            <element signature="e#9227#9601#0" />
+            <element signature="e#9300#9377#0" />
+            <element signature="e#9480#9558#0" />
+            <element signature="e#9670#10060#0" />
+            <element signature="e#9765#9849#0" />
+            <element signature="e#9952#10060#0" />
+            <element signature="e#10123#10474#0" />
+            <element signature="e#10197#10275#0" />
+            <element signature="e#10378#10474#0" />
+            <element signature="e#10537#11188#0" />
+            <element signature="e#10672#10816#0" />
+            <element signature="e#10848#11188#0" />
+            <element signature="e#10935#11043#0" />
+            <element signature="e#11092#11188#0" />
+            <element signature="e#11241#11665#0" />
+            <element signature="e#11404#11665#0" />
+            <element signature="e#11444#11665#0" />
+            <element signature="e#11693#11972#0" />
+            <element signature="e#11749#11928#0" />
+            <element signature="e#12019#12329#0" />
+            <element signature="e#12374#12756#0" />
+            <element signature="e#12449#12756#0" />
+            <element signature="e#12793#14930#0" />
+            <element signature="e#14266#14370#0" />
+            <element signature="e#14465#14634#0" />
+            <element signature="e#14760#14929#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/test_joinUS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>

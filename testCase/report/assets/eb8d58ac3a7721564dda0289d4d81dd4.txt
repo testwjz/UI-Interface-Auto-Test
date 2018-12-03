@@ -1,0 +1,146 @@
+[1543833083.611][INFO]: [3e6d95c213f95939c148c34dc1f835ec] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1543833083.614][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1543833083.616][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1543833083.621][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1543833083.621][INFO]: Launching chrome: "C:\Users\zwl\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\zwl\AppData\Local\Temp\scoped_dir12672_10191\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\zwl\AppData\Local\Temp\scoped_dir12672_2100" data:,
+[1543833084.213][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1543833085.234][INFO]: [3e6d95c213f95939c148c34dc1f835ec] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a)",
+      "userDataDir": "C:\\Users\\zwl\\AppData\\Local\\Temp\\scoped_dir12672_2100"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:62206"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "~~~": "..."
+}
+[1543833085.236][INFO]: [3e6d95c213f95939c148c34dc1f835ec] COMMAND Navigate {
+   "sessionId": "3e6d95c213f95939c148c34dc1f835ec",
+   "url": "https://www.xinchao.com//"
+}
+[1543833085.236][INFO]: Waiting for pending navigations...
+[1543833085.245][INFO]: Done waiting for pending navigations. Status: ok
+[1543833087.192][INFO]: Waiting for pending navigations...
+[1543833088.760][INFO]: Done waiting for pending navigations. Status: ok
+[1543833088.760][INFO]: [3e6d95c213f95939c148c34dc1f835ec] RESPONSE Navigate
+[1543833089.764][INFO]: [3e6d95c213f95939c148c34dc1f835ec] COMMAND FindElement {
+   "sessionId": "3e6d95c213f95939c148c34dc1f835ec",
+   "using": "xpath",
+   "value": "//a[@data-v-d5d0bb68 and text()='首页']"
+}
+[1543833089.764][INFO]: Waiting for pending navigations...
+[1543833089.765][INFO]: Done waiting for pending navigations. Status: ok
+[1543833089.777][INFO]: Waiting for pending navigations...
+[1543833089.778][INFO]: Done waiting for pending navigations. Status: ok
+[1543833089.778][INFO]: [3e6d95c213f95939c148c34dc1f835ec] RESPONSE FindElement {
+   "ELEMENT": "0.12143444535244985-1"
+}
+[1543833089.779][INFO]: [3e6d95c213f95939c148c34dc1f835ec] COMMAND GetTitle {
+
+}
+[1543833089.779][INFO]: Waiting for pending navigations...
+[1543833089.780][INFO]: Done waiting for pending navigations. Status: ok
+[1543833089.782][INFO]: Waiting for pending navigations...
+[1543833089.783][INFO]: Done waiting for pending navigations. Status: ok
+[1543833089.783][INFO]: [3e6d95c213f95939c148c34dc1f835ec] RESPONSE GetTitle "新潮传媒集团-专注中产家庭消费升级的领先媒体|电梯电视广告投放"

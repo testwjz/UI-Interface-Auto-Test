@@ -1,4 +1,4 @@
-[1543823357.969][INFO]: [8f1d73aaa8dafa1cab5576f6d797fae6] COMMAND InitSession {
+[1543827907.514][INFO]: [fd4dc1b7fb7c6585610e1b38b2299015] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -22,7 +22,7 @@
       "version": ""
    }
 }
-[1543823357.972][INFO]: Populating Preferences file: {
+[1543827907.517][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -75,7 +75,7 @@
       "enabled": false
    }
 }
-[1543823357.973][INFO]: Populating Local State file: {
+[1543827907.519][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -85,10 +85,10 @@
       }
    }
 }
-[1543823357.980][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
-[1543823357.980][INFO]: Launching chrome: "C:\Users\zwl\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\zwl\AppData\Local\Temp\scoped_dir13348_20325\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\zwl\AppData\Local\Temp\scoped_dir13348_24625" data:,
-[1543823359.018][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1543823360.030][INFO]: [8f1d73aaa8dafa1cab5576f6d797fae6] RESPONSE InitSession {
+[1543827907.525][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1543827907.525][INFO]: Launching chrome: "C:\Users\zwl\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\zwl\AppData\Local\Temp\scoped_dir13560_27530\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\zwl\AppData\Local\Temp\scoped_dir13560_4186" data:,
+[1543827908.125][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1543827909.138][INFO]: [fd4dc1b7fb7c6585610e1b38b2299015] RESPONSE InitSession {
    "acceptInsecureCerts": false,
    "acceptSslCerts": false,
    "applicationCacheEnabled": false,
@@ -96,12 +96,12 @@
    "browserName": "chrome",
    "chrome": {
       "chromedriverVersion": "2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a)",
-      "userDataDir": "C:\\Users\\zwl\\AppData\\Local\\Temp\\scoped_dir13348_24625"
+      "userDataDir": "C:\\Users\\zwl\\AppData\\Local\\Temp\\scoped_dir13560_4186"
    },
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
    "goog:chromeOptions": {
-      "debuggerAddress": "localhost:59214"
+      "debuggerAddress": "localhost:61081"
    },
    "handlesAlerts": true,
    "hasTouchScreen": false,
@@ -115,32 +115,24 @@
    "rotatable": false,
    "~~~": "..."
 }
-[1543823360.037][INFO]: [8f1d73aaa8dafa1cab5576f6d797fae6] COMMAND Navigate {
-   "sessionId": "8f1d73aaa8dafa1cab5576f6d797fae6",
+[1543827909.142][INFO]: [fd4dc1b7fb7c6585610e1b38b2299015] COMMAND Navigate {
+   "sessionId": "fd4dc1b7fb7c6585610e1b38b2299015",
    "url": "https://www.xinchao.com//"
 }
-[1543823360.037][INFO]: Waiting for pending navigations...
-[1543823360.044][INFO]: Done waiting for pending navigations. Status: ok
-[1543823360.213][INFO]: Waiting for pending navigations...
-[1543823360.906][INFO]: Done waiting for pending navigations. Status: ok
-[1543823360.906][INFO]: [8f1d73aaa8dafa1cab5576f6d797fae6] RESPONSE Navigate
-[1543823361.923][INFO]: [8f1d73aaa8dafa1cab5576f6d797fae6] COMMAND FindElement {
-   "sessionId": "8f1d73aaa8dafa1cab5576f6d797fae6",
+[1543827909.142][INFO]: Waiting for pending navigations...
+[1543827909.150][INFO]: Done waiting for pending navigations. Status: ok
+[1543827909.311][INFO]: Waiting for pending navigations...
+[1543827910.660][INFO]: Done waiting for pending navigations. Status: ok
+[1543827910.660][INFO]: [fd4dc1b7fb7c6585610e1b38b2299015] RESPONSE Navigate
+[1543827911.670][INFO]: [fd4dc1b7fb7c6585610e1b38b2299015] COMMAND FindElement {
+   "sessionId": "fd4dc1b7fb7c6585610e1b38b2299015",
    "using": "xpath",
    "value": "//a[@data-v-d5d0bb68 and text()='首页']"
 }
-[1543823361.923][INFO]: Waiting for pending navigations...
-[1543823361.924][INFO]: Done waiting for pending navigations. Status: ok
-[1543823361.934][INFO]: Waiting for pending navigations...
-[1543823361.935][INFO]: Done waiting for pending navigations. Status: ok
-[1543823361.935][INFO]: [8f1d73aaa8dafa1cab5576f6d797fae6] RESPONSE FindElement {
-   "ELEMENT": "0.25232891813911507-1"
+[1543827911.670][INFO]: Waiting for pending navigations...
+[1543827911.671][INFO]: Done waiting for pending navigations. Status: ok
+[1543827911.683][INFO]: Waiting for pending navigations...
+[1543827911.683][INFO]: Done waiting for pending navigations. Status: ok
+[1543827911.683][INFO]: [fd4dc1b7fb7c6585610e1b38b2299015] RESPONSE FindElement {
+   "ELEMENT": "0.27224859443564875-1"
 }
-[1543823361.945][INFO]: [8f1d73aaa8dafa1cab5576f6d797fae6] COMMAND GetTitle {
-
-}
-[1543823361.945][INFO]: Waiting for pending navigations...
-[1543823361.946][INFO]: Done waiting for pending navigations. Status: ok
-[1543823361.948][INFO]: Waiting for pending navigations...
-[1543823361.948][INFO]: Done waiting for pending navigations. Status: ok
-[1543823361.948][INFO]: [8f1d73aaa8dafa1cab5576f6d797fae6] RESPONSE GetTitle "新潮传媒集团-专注中产家庭消费升级的领先媒体|电梯电视广告投放"

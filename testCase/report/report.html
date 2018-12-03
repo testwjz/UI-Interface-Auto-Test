@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 03-Dec-2018 at 17:16:27 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.19.0</p>
+    <p>Report generated on 03-Dec-2018 at 18:31:58 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.19.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -257,7 +257,7 @@ function filter_table(elem) {
         <td>Python</td>
         <td>2.7.15</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 0.19 seconds. </p>
+    <p>1 tests ran in 7.50 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -272,9 +272,22 @@ function filter_table(elem) {
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">testCase/test_joinUS.py::TestJoinUs::test_login</td>
-          <td class="col-duration">0.00</td>
-          <td class="col-links"></td></tr>
+          <td class="col-name">testCase/test_joinUS.py::test_login</td>
+          <td class="col-duration">0.02</td>
+          <td class="col-links"><a class="url" href="https://www.xinchao.com//#/" target="_blank">URL</a> <a class="image" href="assets/5cc074bedbd844f37c77de2f28d9093e.png" target="_blank">Screenshot</a> <a class="text" href="assets/20c9224fdae41ded8c4036bc4a364554.txt" target="_blank">HTML</a> </td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">homePage = &lt;testCase.test_joinUS.TestJoinUs object at 0x00000000074C6F60&gt;<br/><br/>    def test_login(homePage):<br/>&gt;       customdriver.wait_element_exit(homePage, homePage.JOIN_HOME)<br/><span class="error">E       AttributeError: 'TestJoinUs' object has no attribute 'JOIN_HOME'</span><br/><br/>testCase\test_joinUS.py:20: AttributeError<br/></div></td></tr></tbody></table></body></html>
+            <div class="image"><a href="assets/5cc074bedbd844f37c77de2f28d9093e.png"><img src="assets/5cc074bedbd844f37c77de2f28d9093e.png"/></a></div>
+            <div class="log">homePage = &lt;pageLocator.joinUs.HomePage object at 0x000000000718F748&gt;<br/><br/>    def test_login(homePage):<br/>        customdriver.wait_element_exit(homePage, homePage.JOIN_HOME)<br/>&gt;       assert customdriver.get_title(homePage.w) != homePage.HomePageAssert<br/><span class="error">E       assert '新潮传媒集团-专注中产家庭消费升级的领先媒体|电梯电视广告投放' != '新潮传媒集团-专注中产家庭消费升级的领先媒体|电梯电视广告投放'</span><br/><span class="error">E        +  where '新潮传媒集团-专注中产家庭消费升级的领先媒体|电梯电视广告投放' = &lt;bound method CustomDriver.get_title of &lt;common.CustomDriver.CustomDriver object at 0x0000000007122B00&gt;&gt;(&lt;selenium.webdriver.chrome.webdriver.WebDriver (session="0872081ccc51ecd56909b22bd3b3a9ce")&gt;)</span><br/><span class="error">E        +    where &lt;bound method CustomDriver.get_title of &lt;common.CustomDriver.CustomDriver object at 0x0000000007122B00&gt;&gt; = &lt;common.CustomDriver.CustomDriver object at 0x0000000007122B00&gt;.get_title</span><br/><span class="error">E        +    and   &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="0872081ccc51ecd56909b22bd3b3a9ce")&gt; = &lt;pageLocator.joinUs.HomePage object at 0x000000000718F748&gt;.w</span><br/><span class="error">E        +  and   '新潮传媒集团-专注中产家庭消费升级的领先媒体|电梯电视广告投放' = &lt;pageLocator.joinUs.HomePage object at 0x000000000718F748&gt;.HomePageAssert</span><br/><br/>test_joinUS.py:20: AssertionError<br/>------------------------------ Captured log setup ------------------------------<br/>pytest_selenium.py         114 INFO     Capabilities from markers: {}
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:62238/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": [], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": [], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+connectionpool.py          205 DEBUG    Starting new HTTP connection (1): 127.0.0.1:62238
+connectionpool.py          393 DEBUG    http://127.0.0.1:62238 "POST /session HTTP/1.1" 200 884
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    POST http://127.0.0.1:62238/session/0872081ccc51ecd56909b22bd3b3a9ce/url {"url": "https://www.xinchao.com//", "sessionId": "0872081ccc51ecd56909b22bd3b3a9ce"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:62238 "POST /session/0872081ccc51ecd56909b22bd3b3a9ce/url HTTP/1.1" 200 72
+remote_connection.py       440 DEBUG    Finished Request------------------------------ Captured log call -------------------------------<br/>remote_connection.py       388 DEBUG    POST http://127.0.0.1:62238/session/0872081ccc51ecd56909b22bd3b3a9ce/element {"using": "xpath", "sessionId": "0872081ccc51ecd56909b22bd3b3a9ce", "value": "//a[@data-v-d5d0bb68 and text()='\u9996\u9875']"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:62238 "POST /session/0872081ccc51ecd56909b22bd3b3a9ce/element HTTP/1.1" 200 102
+remote_connection.py       440 DEBUG    Finished Request
+remote_connection.py       388 DEBUG    GET http://127.0.0.1:62238/session/0872081ccc51ecd56909b22bd3b3a9ce/title {"sessionId": "0872081ccc51ecd56909b22bd3b3a9ce"}
+connectionpool.py          393 DEBUG    http://127.0.0.1:62238 "GET /session/0872081ccc51ecd56909b22bd3b3a9ce/title HTTP/1.1" 200 159
+remote_connection.py       440 DEBUG    Finished Request------------------------------- pytest-selenium --------------------------------<br/>URL: https://www.xinchao.com//#/</div></td></tr></tbody></table></body></html>

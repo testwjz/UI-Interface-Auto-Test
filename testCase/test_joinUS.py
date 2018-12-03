@@ -17,8 +17,4 @@ def homePage(selenium):
 
 def test_login(homePage):
     customdriver.wait_element_exit(homePage, homePage.JOIN_HOME)
-    assert customdriver.get_title(homePage.w) == homePage.HomePageAssert
-
-def test_login1(homePage):
-    customdriver.wait_element_exit(homePage, homePage.JOIN_HOME)
     assert customdriver.get_title(homePage.w) != homePage.HomePageAssert

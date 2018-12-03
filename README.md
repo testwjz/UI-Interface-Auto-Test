@@ -15,7 +15,7 @@
 * report
 > 执行结束后自动生成报告<br>
 > 自动对失败的用例进行界面截图<br>
-1、使用pytest-selenium、pytest-html
+1、使用pytest-selenium、pytest-html<br>
 2、安装：pip install pytest-html、pip install pytest-selenium<br>
 3、参考地址1：https://pypi.org/project/pytest-html<br>
 4、参考地址2：https://pytest-selenium.readthedocs.io/en/latest
