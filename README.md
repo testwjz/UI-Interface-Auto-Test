@@ -1,13 +1,13 @@
 # UI TEST PYTEST+SELENIUM
 
 * common 公共方法
-> seleniumMethod类，自定义封装selenium方法
+> CustomDriver类，自定义封装selenium方法
 
 * config
 > 存放一些配置文件
 
 * pageLocator
-> 根据不同页面分别存放元素坐标
+> 使用page_objects包对界面元素进行封装
 
 
 * report
