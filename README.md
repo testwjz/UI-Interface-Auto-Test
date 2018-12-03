@@ -1,4 +1,4 @@
-# UI TEST PYTEST+SELENIUM
+﻿# UI TEST PYTEST+SELENIUM
 
 * common 公共方法
 > CustomDriver类，自定义封装selenium方法
@@ -13,11 +13,11 @@
 3、参考地址：https://page-objects.readthedocs.io/en/latest/tutorial.html
 
 * report
-> 执行结束后自动生成报告，使用pytest-html <br>
+> 执行结束后自动生成报告<br>
 > 自动对失败的用例进行界面截图<br>
 1、使用pytest-selenium、pytest-html
 2、安装：pip install pytest-html、pip install pytest-selenium<br>
-3、参考地址1：https://pypi.org/project/pytest-html
+3、参考地址1：https://pypi.org/project/pytest-html<br>
 4、参考地址2：https://pytest-selenium.readthedocs.io/en/latest
 
 * testCase    
