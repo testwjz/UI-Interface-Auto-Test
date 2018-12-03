@@ -7,12 +7,17 @@
 > 存放一些配置文件
 
 * pageLocator
-> 使用page_objects包对界面元素进行封装
-
+> 使用page_objects包对界面元素进行封装<br>
+1、安装:pip install page_objects<br>
+2、主要包括PageObject、PageElement、MultiPageElement<br>
+3、参考地址：https://page-objects.readthedocs.io/en/latest/tutorial.html
 
 * report
 > 执行结束后自动生成报告，使用pytest-html <br>
-> 自动对失败的用例进行界面截图
+> 自动对失败的用例进行界面截图<br>
+1、使用pytest-selenium、pytest-html
+2、安装：pip install pytest-html、pip install pytest-selenium<br>
+3、参考地址：https://pypi.org/project/pytest-html/、https://pytest-selenium.readthedocs.io/en/latest/
 
 * testCase    
 > 测试用例存放地方
