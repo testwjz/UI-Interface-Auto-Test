@@ -7,3 +7,6 @@ class HomePage(PageObject):
     JOIN_HOME_INPUT = PageElement(xpath="//input[@name='k' and @id='k']")
     JOIN_HOME_BUTTON = PageElement(xpath="//a[@class='searchBtn subButton']")
     JOIN_HOME_ASSERT_BUTTON = PageElement(xpath="//span[text()='职位搜索']")
+"""
+更多页面元素自定义，待补充
+"""
