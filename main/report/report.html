@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 10-Jan-2019 at 09:18:18 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.19.0</p>
+    <p>Report generated on 10-Jan-2019 at 18:06:13 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.19.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -257,8 +257,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.2</td></tr></table>
     <h2>Summary</h2>
-    <p>16 tests ran in 3.74 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">15 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>32 tests ran in 6.71 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">31 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -272,89 +272,17 @@ function filter_table(elem) {
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:&quot;ss&quot;, &quot;pageSize&quot;:3}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCases-{&quot;Content-Type&quot;: &quot;application/json&quot;}]</td>
-          <td class="col-duration">0.27</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">data = &#x27;{&quot;page&quot;:&quot;ss&quot;, &quot;pageSize&quot;:3}&#x27;, assertData = &quot;&#x27;传入参数错误&#x27;&quot;<br/>url = &#x27;https://offical.xinchao.com/api/getCases&#x27;<br/>header = &#x27;{&quot;Content-Type&quot;: &quot;application/json&quot;}&#x27;<br/><br/>    @pytest.mark.parametrize(&quot;data,assertData,url,header&quot;, get_case_data())<br/>    def test_getCases(data,assertData,url,header):<br/>        re = requests.post(url=url, data=data, headers=eval(header))<br/>&gt;       assert assertData in str(re.json())<br/><br/>interfaceTest.py:10: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>..\..\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\models.py:897: in json<br/>    return complexjson.loads(self.text, **kwargs)<br/>..\..\AppData\Local\Programs\Python\Python37\lib\json\__init__.py:348: in loads<br/>    return _default_decoder.decode(s)<br/>..\..\AppData\Local\Programs\Python\Python37\lib\json\decoder.py:337: in decode<br/>    obj, end = self.raw_decode(s, idx=_w(s, 0).end())<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>self = &lt;json.decoder.JSONDecoder object at 0x000001758A2002E8&gt;<br/>s = &#x27;&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n    &lt;meta charset=&quot;UTF-8&quot;&gt;\n    &lt;title&gt;System Error&lt;/title&gt;\n    &lt;meta name=&quot;robots&quot;...nerHTML = ol[0].innerHTML;\n                }\n            });\n\n        })();\n    &lt;/script&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n&#x27;<br/>idx = 0<br/><br/>    def raw_decode(self, s, idx=0):<br/>        &quot;&quot;&quot;Decode a JSON document from ``s`` (a ``str`` beginning with<br/>        a JSON document) and return a 2-tuple of the Python<br/>        representation and the index in ``s`` where the document ended.<br/>    <br/>        This can be used to decode a JSON document from a string that may<br/>        have extraneous data at the end.<br/>    <br/>        &quot;&quot;&quot;<br/>        try:<br/>            obj, end = self.scan_once(s, idx)<br/>        except StopIteration as err:<br/>&gt;           raise JSONDecodeError(&quot;Expecting value&quot;, s, err.value) from None<br/><span class="error">E           json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)</span><br/><br/>..\..\AppData\Local\Programs\Python\Python37\lib\json\decoder.py:355: JSONDecodeError<br/>------------------------------ Captured log call -------------------------------<br/>connectionpool.py          813 DEBUG    Starting new HTTPS connection (1): offical.xinchao.com:443
-connectionpool.py          393 DEBUG    https://offical.xinchao.com:443 &quot;POST /api/getCases HTTP/1.1&quot; 500 None</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:2, &quot;pageSize&quot;:2}-&apos;\u83b7\u53d6\u6210\u529f&apos;-https://offical.xinchao.com/api/getCases-{&quot;Content-Type&quot;: &quot;application/json&quot;}]</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:&quot;ss&quot;, &quot;pageSize&quot;:3}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCasesForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
           <td class="col-duration">0.34</td>
           <td class="col-links"></td></tr>
         <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
+          <td class="extra" colspan="4">
+            <div class="log">data = &#x27;{&quot;page&quot;:&quot;ss&quot;, &quot;pageSize&quot;:3}&#x27;, assertData = &quot;&#x27;传入参数错误&#x27;&quot;<br/>url = &#x27;https://offical.xinchao.com/api/getCasesForBlm&#x27;<br/>header = &#x27;{&quot;Content-Type&quot;: &quot;application/json&quot;}&#x27;, method = &#x27;post&#x27;<br/><br/>    @pytest.mark.parametrize(&quot;data,assertData,url,header,method&quot;, get_case_data())<br/>    def test_getCases(data,assertData,url,header,method):<br/>        request=myRequest()<br/>        request.set_method(method)<br/>        request.set_url(url)<br/>        request.set_headers(eval(header))<br/>        request.set_data(data.encode(&#x27;utf-8&#x27;))<br/>        response=request.my_request()<br/>&gt;       assert assertData in str(response.json())<br/><br/>interfaceTest.py:13: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>..\..\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\models.py:897: in json<br/>    return complexjson.loads(self.text, **kwargs)<br/>..\..\AppData\Local\Programs\Python\Python37\lib\json\__init__.py:348: in loads<br/>    return _default_decoder.decode(s)<br/>..\..\AppData\Local\Programs\Python\Python37\lib\json\decoder.py:337: in decode<br/>    obj, end = self.raw_decode(s, idx=_w(s, 0).end())<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>self = &lt;json.decoder.JSONDecoder object at 0x000001B2C13A01D0&gt;<br/>s = &#x27;&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n    &lt;meta charset=&quot;UTF-8&quot;&gt;\n    &lt;title&gt;System Error&lt;/title&gt;\n    &lt;meta name=&quot;robots&quot;...nerHTML = ol[0].innerHTML;\n                }\n            });\n\n        })();\n    &lt;/script&gt;\n    &lt;/body&gt;\n&lt;/html&gt;\n&#x27;<br/>idx = 0<br/><br/>    def raw_decode(self, s, idx=0):<br/>        &quot;&quot;&quot;Decode a JSON document from ``s`` (a ``str`` beginning with<br/>        a JSON document) and return a 2-tuple of the Python<br/>        representation and the index in ``s`` where the document ended.<br/>    <br/>        This can be used to decode a JSON document from a string that may<br/>        have extraneous data at the end.<br/>    <br/>        &quot;&quot;&quot;<br/>        try:<br/>            obj, end = self.scan_once(s, idx)<br/>        except StopIteration as err:<br/>&gt;           raise JSONDecodeError(&quot;Expecting value&quot;, s, err.value) from None<br/><span class="error">E           json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)</span><br/><br/>..\..\AppData\Local\Programs\Python\Python37\lib\json\decoder.py:355: JSONDecodeError<br/>------------------------------ Captured log call -------------------------------<br/>connectionpool.py          813 DEBUG    Starting new HTTPS connection (1): offical.xinchao.com:443
+connectionpool.py          393 DEBUG    https://offical.xinchao.com:443 &quot;POST /api/getCasesForBlm HTTP/1.1&quot; 500 None</div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;&quot;:2, &quot;pageSize&quot;:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCases-{&quot;Content-Type&quot;: &quot;application/json&quot;}]</td>
-          <td class="col-duration">0.20</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{null:2, &quot;pageSize&quot;:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCases-{&quot;Content-Type&quot;: &quot;application/json&quot;}]</td>
-          <td class="col-duration">0.20</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:2, &quot;&quot;:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCases-{&quot;Content-Type&quot;: &quot;application/json&quot;}]</td>
-          <td class="col-duration">0.20</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:2, null:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCases-{&quot;Content-Type&quot;: &quot;application/json&quot;}]</td>
-          <td class="col-duration">0.20</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:null, &quot;pageSize&quot;:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCases-{&quot;Content-Type&quot;: &quot;application/json&quot;}]</td>
-          <td class="col-duration">0.21</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:2, &quot;pageSize&quot;:null}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCases-{&quot;Content-Type&quot;: &quot;application/json&quot;}]</td>
-          <td class="col-duration">0.20</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }--https://offical.xinchao.com/api/searchCasesByCondition-{&quot;Content-Type&quot;: &quot;application/json&quot;}0]</td>
-          <td class="col-duration">0.22</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }--https://offical.xinchao.com/api/searchCasesByCondition-{&quot;Content-Type&quot;: &quot;application/json&quot;}1]</td>
-          <td class="col-duration">0.22</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4"></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }--https://offical.xinchao.com/api/searchCasesByCondition-{&quot;Content-Type&quot;: &quot;application/json&quot;}2]</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseid&quot;:2277 }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/getCasesByIdForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
           <td class="col-duration">0.23</td>
           <td class="col-links"></td></tr>
         <tr>
@@ -362,15 +290,151 @@ connectionpool.py          393 DEBUG    https://offical.xinchao.com:443 &quot;PO
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }--https://offical.xinchao.com/api/searchCasesByCondition-{&quot;Content-Type&quot;: &quot;application/json&quot;}3]</td>
-          <td class="col-duration">0.22</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseid&quot;: }-\u4f20\u5165\u53c2\u6570\u9519\u8bef-https://offical.xinchao.com/api/getCasesByIdForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.18</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4"></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }--https://offical.xinchao.com/api/searchCasesByCondition-{&quot;Content-Type&quot;: &quot;application/json&quot;}4]</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseid&quot;: null}-\u4f20\u5165\u53c2\u6570\u9519\u8bef-https://offical.xinchao.com/api/getCasesByIdForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseid1&quot;: 2277}-\u4f20\u5165\u53c2\u6570\u9519\u8bef-https://offical.xinchao.com/api/getCasesByIdForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ null:33 }-\u4f20\u5165\u53c2\u6570\u9519\u8bef-https://offical.xinchao.com/api/getCasesByIdForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.19</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ }-\u4f20\u5165\u53c2\u6570\u9519\u8bef-https://offical.xinchao.com/api/getCasesByIdForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:2, &quot;pageSize&quot;:2}-&apos;\u83b7\u53d6\u6210\u529f&apos;-https://offical.xinchao.com/api/getCasesForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.20</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;&quot;:2, &quot;pageSize&quot;:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCasesForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{null:2, &quot;pageSize&quot;:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCasesForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:2, &quot;&quot;:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCasesForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.19</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:2, null:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCasesForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:null, &quot;pageSize&quot;:5}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCasesForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.19</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{&quot;page&quot;:2, &quot;pageSize&quot;:null}-&apos;\u4f20\u5165\u53c2\u6570\u9519\u8bef&apos;-https://offical.xinchao.com/api/getCasesForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.18</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[None-&apos;\u83b7\u53d6\u6210\u529f&apos;-https://offical.xinchao.com/api/getTradeSetForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-get]</td>
+          <td class="col-duration">0.20</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseId&quot;:2280, &quot;fromVisitor&quot;:&quot;\u652f\u4ed8\u5b9d&quot; }-&apos;\u83b7\u53d6\u6210\u529f&apos;-https://offical.xinchao.com/api/putShareMp4ForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.19</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseId&quot;:&quot;str&quot;, &quot;fromVisitor&quot;:&quot;\u652f\u4ed8\u5b9d&quot; }-\u6848\u4f8bid\u5fc5\u987b\u4e3a\u6570\u5b57-https://offical.xinchao.com/api/putShareMp4ForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.19</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseId1&quot;:2280, &quot;fromVisitor&quot;:&quot;\u652f\u4ed8\u5b9d&quot; }-\u6848\u4f8bid\u4e0d\u80fd\u4e3a\u7a7a-https://offical.xinchao.com/api/putShareMp4ForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.19</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseId&quot;:2280, &quot;fromVisitor&quot;:null }-\u6765\u6e90\u4e0d\u80fd\u4e3a\u7a7a\uff0c\u82e5\u4e3a\u7a7a\u8bf7\u4f20\u5165\u5176\u4ed6-https://offical.xinchao.com/api/putShareMp4ForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.20</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;caseId&quot;:2280, &quot;fromVisitor1&quot;:&quot;\u652f\u4ed8\u5b9d&quot; }-\u6765\u6e90\u4e0d\u80fd\u4e3a\u7a7a\uff0c\u82e5\u4e3a\u7a7a\u8bf7\u4f20\u5165\u5176\u4ed6-https://offical.xinchao.com/api/putShareMp4ForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.19</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;\u5954\u9a70&quot;, &quot;industryId&quot;: &quot;&quot;, &quot;page&quot;: 2, &quot;pageSize&quot;: 5 }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
           <td class="col-duration">0.21</td>
           <td class="col-links"></td></tr>
         <tr>
@@ -378,7 +442,31 @@ connectionpool.py          393 DEBUG    https://offical.xinchao.com:443 &quot;PO
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }--https://offical.xinchao.com/api/searchCasesByCondition-{&quot;Content-Type&quot;: &quot;application/json&quot;}5]</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 2, &quot;pageSize&quot;: 5 }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.20</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;\u6d4b\u8bd5&quot;, &quot;industryId&quot;: &quot;&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }-\u672a\u627e\u5230\u6570\u636e-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.21</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;\u80af&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 2, &quot;pageSize&quot;: 5 }-\u80af\u5fb7\u57fa-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.19</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;:null, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 10 }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
           <td class="col-duration">0.22</td>
           <td class="col-links"></td></tr>
         <tr>
@@ -386,7 +474,39 @@ connectionpool.py          393 DEBUG    https://offical.xinchao.com:443 &quot;PO
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }--https://offical.xinchao.com/api/searchCasesByCondition-{&quot;Content-Type&quot;: &quot;application/json&quot;}6]</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;page&quot;: 1, &quot;pageSize&quot;: 10 }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.21</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;page&quot;:null, &quot;pageSize&quot;: 10 }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.21</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;page&quot;:&quot;str&quot;, &quot;pageSize&quot;: 10 }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.22</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;pageSize&quot;: 10 }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.22</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;page&quot;:1, &quot;pageSize&quot;: null }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
           <td class="col-duration">0.23</td>
           <td class="col-links"></td></tr>
         <tr>
@@ -394,7 +514,15 @@ connectionpool.py          393 DEBUG    https://offical.xinchao.com:443 &quot;PO
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;keywords&quot;: &quot;&quot;, &quot;industryId&quot;: &quot;1016&quot;, &quot;page&quot;: 1, &quot;pageSize&quot;: 5 }--https://offical.xinchao.com/api/searchCasesByCondition-{&quot;Content-Type&quot;: &quot;application/json&quot;}7]</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{ &quot;page&quot;:1, &quot;pageSize&quot;: &quot;str&quot; }-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
+          <td class="col-duration">0.23</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4"></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">main/interfaceTest.py::test_getCases[{}-\u83b7\u53d6\u6210\u529f-https://offical.xinchao.com/api/searchCasesByConditionForBlm-{&quot;Content-Type&quot;: &quot;application/json&quot;}-post]</td>
           <td class="col-duration">0.22</td>
           <td class="col-links"></td></tr>
         <tr>
