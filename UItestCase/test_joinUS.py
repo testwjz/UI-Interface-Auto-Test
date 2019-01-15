@@ -1,10 +1,9 @@
-import os
 import time
 import pytest
 
 import common.CustomDriver as seleniumMethod
 from pageLocator.joinUs import HomePage
-from config.readConfig import ReadConfig, dirpath
+from config.readConfig import ReadConfig
 
 customdriver = seleniumMethod.CustomDriver()
 
