@@ -1,4 +1,4 @@
-﻿# UI+I TEST PYTEST+SELENIUM
+﻿# UI+Interface TEST PYTEST+SELENIUM
 
 * common 公共方法
 > CustomDriver类，自定义封装selenium方法
